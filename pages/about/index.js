@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React, { useState } from "react";
-import Avatar from "../../components/Avatar";
+import CardLeft from "../../components/CardLeft";
 import Circles from "../../components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -51,25 +51,25 @@ const aboutData = [
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left ">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left xl:overflow-hidden ">
       <Circles />
       <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[200px]"
+        className="hidden xl:flex absolute xl:bottom-0 xl:-left-32"
       >
-        <Avatar />
+        <CardLeft/>
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:ml-[200px] xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-center"
+            className="h2 text-center font-serif mt-2"
           >
             VICENTE ANÍBAL OJEDA MARTINEZ
           </motion.h2>
@@ -78,7 +78,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[600px] mx-auto xl:mx-0 mb-4 xl:mb-2 px-2 xl:px-0 xl:text-justify "
+            className="max-w-[600px] mx-auto xl:mx-0 mb-4 xl:mb-2 px-2 xl:px-0 xl:text-justify font-semibold"
           >
             Graduado como Abogado de la Universidad Santo Tomás de Tunja,
             también ostenta el título de Especialista en Gobierno y Gerencia
