@@ -15,7 +15,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-2 xl:mb-0"
+            className="text-center -mt-[30px] xl:mt-0 flex xl:w-[30vw] flex-col lg:text-left mb-2 xl:mb-0"
           >
             <h2 className="h2 xl:mt-8 font-serif">Mis propuestas</h2>
             <p className="mb-1 max-w-[400px] mx-auto lg:mx-0 font-semibold">

@@ -69,7 +69,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-center font-serif mt-2"
+            className="h2 text-center font-serif mt-[20px] xl:mt-[10px] text-[20px] xl:text-3xl"
           >
             VICENTE ANÍBAL OJEDA MARTINEZ
           </motion.h2>
@@ -78,7 +78,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[600px] mx-auto xl:mx-0 mb-4 xl:mb-2 px-2 xl:px-0 xl:text-justify font-semibold"
+            className="max-w-[600px] text-[14px] xl:text-xl mx-auto xl:mx-0 mb-4 xl:mb-2 px-2 xl:px-0 text-justify xl:text-justify font-semibold"
           >
             Graduado como Abogado de la Universidad Santo Tomás de Tunja,
             también ostenta el título de Especialista en Gobierno y Gerencia
@@ -120,10 +120,10 @@ const About = () => {
                   key={i}
                   className="flex-1 flex flex-row md:flex-row max-w-max gap-x-1 items-center text-[#ffcc00]/70"
                 >
-                  <div className="font-light mb-1 md:mb-0 text-xs xl:text-lg xl:text-justify">
+                  <div className="font-light mb-1 md:mb-0 text-[13px] xl:text-lg xl:text-justify">
                     {item.title}
                   </div>
-                  <div className="text-xs xl:text-lg">{item.stage}</div>
+                  <div className="text-[13px] xl:text-lg">{item.stage}</div>
                 </div>
               );
             })}

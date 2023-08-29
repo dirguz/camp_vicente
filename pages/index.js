@@ -9,13 +9,13 @@ const Home = () => {
   return (
     <div className="bg-[#00025e] h-screen">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/50 to-black/10">
-        <div className="text-center flex flex-col xl:gap-[25px] justify-center xl:pt-[90px] xl:text-justify h-full container mx-auto">
+        <div className="text-center flex flex-col  xl:gap-[15px] justify-center xl:pt-[90px] xl:text-justify h-full container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 py-0 mt-10 xl:mt-6 xl:z-30 font-serif xl:right-[0%] xl:top-[4%] relative"
+            className="h1 py-0 -mt-[40px] xl:mt-6 xl:z-30 font-serif xl:right-[0%] xl:top-[4%] relative"
           >
             Vicente Anibal Ojeda
           </motion.h1>
@@ -24,7 +24,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-5 xl:mb-15 xl:text-justify xl:mt-7 text-lg text-white"
+            className="h2 max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-5 xl:mb-15 xl:text-justify xl:mt-7 text-[15px] xl:text-[20px] text-justify text-white"
           >
             Candidato a la Alcaldía Mayor de Tunja por el Partido
             Conservador, Liberal, ASI y Nuevo Liberalismo, y el cual tiene un
@@ -61,7 +61,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="flex xl:items-end h-full w-full max-w-[499px] min-h-full absolute -bottom-30 xl:-bottom-30 lg:right-[5%]"
+          className="flex xl:items-end left-[30%] h-[40%] w-[45%] max-w-[499px] absolute bottom-0 xl:-bottom-30 xl:left-[60%]"
         >
           <Avatar />
         </motion.div>

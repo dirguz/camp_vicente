@@ -6,7 +6,7 @@ const ProjectsBtn = () => {
     <div className="mx-auto xl:mx-0 ">
       <Link
         href={"/work"}
-        className="relative w-[500px] h-[200px] flex justify-center items-center bg-cover bg-center bg-no-repeat group"
+        className="relative w-[300px] h-[140px] flex justify-center items-center bg-cover bg-center bg-no-repeat group"
       >
         <Image
           src={"/logos_partidos.png"}
