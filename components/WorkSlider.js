@@ -67,6 +67,26 @@ const workSlides = {
         },
       ],
     },
+    {
+      images: [
+        {
+          title: "title",
+          path: "https://scontent.fbog15-1.fna.fbcdn.net/v/t39.30808-6/373636536_18383195209054257_1171018567952666956_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFMqWuA_aEJTIyLL7l2hWAWjlAm1nHodQiOUCbWceh1CEFSDjPAZj_GhyQD4IDeUdU&_nc_ohc=p018RxGh_VAAX-hhBPr&_nc_ht=scontent.fbog15-1.fna&oh=00_AfAWKM7ap6PwML0p7Of5KA12XL1su4qKVZnMeo5RqD5oDA&oe=64F8E011",
+        },
+        {
+          title: "title",
+          path: "https://scontent.fbog15-1.fna.fbcdn.net/v/t39.30808-6/374733853_18383195200054257_3789586377407436967_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFLbEF6ic-s4yR34XXu4B7QLwse8GiLMt8vCx7waIsy3_phdZofV8ivU4EivPn69aU&_nc_ohc=FI6m78WxQxoAX9Jy4U-&_nc_ht=scontent.fbog15-1.fna&oh=00_AfDakuDEswGmrGZG338J8tu69tWSz3TJQtBmW924tzDAjA&oe=64F8B770",
+        },
+        {
+          title: "title",
+          path: "https://scontent.fbog15-1.fna.fbcdn.net/v/t39.30808-6/373636584_18383195314054257_6120586543481900231_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeGJxqCa7A94avQY9O2VejCBXT0PQPbRTsNdPQ9A9tFOw8L6mxqeYeMsqaObZ4rdktk&_nc_ohc=69aUw9pp4OwAX86f762&_nc_ht=scontent.fbog15-1.fna&oh=00_AfBd4hICBUTcXDczOekkCJH3SRLHOxzZ3BrTL-lxbUH9cg&oe=64F7E06F",
+        },
+        {
+          title: "title",
+          path: "https://scontent.fbog15-1.fna.fbcdn.net/v/t39.30808-6/375046738_18383195266054257_7950805714531570025_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHJc-S_QjWZBvhUrpG6zaODA580rdjHR8MDnzSt2MdHwznDZ_U_GXQn2qPfTxeOpkA&_nc_ohc=IM1xTYLmPXQAX9n5FpS&_nc_ht=scontent.fbog15-1.fna&oh=00_AfBFe__FGEzjtQ_LRdxrQV3sWIrOK6iG3im0jHVGPLvhpg&oe=64F820A6",
+        },
+      ],
+    },
   ],
 };
 

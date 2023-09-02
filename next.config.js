@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   transpilePackages: ['react-tweet'],
   images: {
-    domains: ['images2.imgbox.com','scontent.fbog2-3.fna.fbcdn.net'],
+    domains: ['images2.imgbox.com','scontent.fbog2-3.fna.fbcdn.net','scontent.fbog15-1.fna.fbcdn.net'],
   },
 
 }
