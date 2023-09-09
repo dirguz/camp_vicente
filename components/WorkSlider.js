@@ -11,6 +11,26 @@ const workSlides = {
       images: [
         {
           title: "title",
+          path: "https://pbs.twimg.com/media/F5Cfd-IWYAAEpA9?format=jpg&name=large",
+        },
+        {
+          title: "title",
+          path: "https://pbs.twimg.com/media/F5Cfd-HXEAAIvFO?format=jpg&name=large",
+        },
+        {
+          title: "title",
+          path: "https://scontent.fbog2-4.fna.fbcdn.net/v/t39.30808-6/373642596_18383493325054257_653016286215008428_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHx5bIbkuf-96Sd6RW82MEO1qEXtgYmTOrWoRe2BiZM6lg5n8YYt7eLkxpdVPj87Hw&_nc_ohc=lZV81i-YvP0AX_8qNcA&_nc_ht=scontent.fbog2-4.fna&oh=00_AfDxk7Pm0-ggdjt84yUNWb2FqrAJChqYw1ZNA7lAABmcfQ&oe=65014030",
+        },
+        {
+          title: "title",
+          path: "https://scontent.fbog2-5.fna.fbcdn.net/v/t39.30808-6/373646107_18383493343054257_8135731847384884294_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHLE762gIuOypF3PPtgHspRYGj7IIY5_ANgaPsghjn8A_dEE6TpCaCXomgKhKxjs-A&_nc_ohc=9TPBW5lb4kIAX919w7-&_nc_ht=scontent.fbog2-5.fna&oh=00_AfCnkiHZkB_65cjMZ7pPy0rjKLhlcrwgSznsIMmzV5bkBQ&oe=64FFF27D",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
           path: "https://images2.imgbox.com/5f/19/mF8vQOQv_o.jpg",
         },
         {

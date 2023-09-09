@@ -10,7 +10,7 @@ const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-4xl">
       <Link
-        href={"https://wa.me/573123583767"}
+        href={"https://wa.me/573142257050"}
         className="hover:text-accent transition-all duration-300"
         legacyBehavior
       >
